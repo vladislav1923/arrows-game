@@ -1,6 +1,6 @@
 enum GameOverTextsEnum {
-	Success = 'You won!',
-	Failure = 'You lost!',
+	Win = 'You won!',
+	Lose = 'You lost!',
 }
 
 export default GameOverTextsEnum;
