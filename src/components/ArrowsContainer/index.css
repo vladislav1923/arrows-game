@@ -1,0 +1,20 @@
+.arrows-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+}
+
+.arrows-container__title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.arrows-container__values {
+    display: flex;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 360px;
+    white-space: nowrap;
+}

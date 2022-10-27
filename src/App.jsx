@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import logo from './components/Header/logo.svg';
 import './App.css';
 import cn from 'classnames';
 

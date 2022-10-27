@@ -1,0 +1,12 @@
+.arrow {
+    font-size: 40px;
+    color: yellow;
+}
+
+.arrow:first-child {
+    font-size: 45px;
+}
+
+.arrow.arrow_correct {
+    color: green;
+}
