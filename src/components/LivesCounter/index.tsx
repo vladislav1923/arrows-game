@@ -12,8 +12,12 @@ const LivesCounter = ({ errorsCount }: Props): ReactElement => {
 
 	useEffect(() => {
 		const restLives = LIVES_COUNT - errorsCount;
-		const livesEmoji = Array(restLives).fill(LIVE_EMOJI);
-		setLives(livesEmoji);
+		if (restLives <= 0) {
+			setLives([]);
+		} else {
+			const livesEmoji = Array(restLives).fill(LIVE_EMOJI);
+			setLives(livesEmoji);
+		}
 	}, [errorsCount]);
 
 	return <div className="live-counter__container">{lives}</div>;

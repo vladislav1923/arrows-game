@@ -1,0 +1,3 @@
+const ARROW_GENERATION_DELAY = 3000;
+
+export default ARROW_GENERATION_DELAY;
