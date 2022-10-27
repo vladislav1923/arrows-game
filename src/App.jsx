@@ -44,6 +44,7 @@ function App() {
 	useEffect(() => {
 		window.addEventListener('keydown', e => {
 			key = e.key;
+			console.log(e);
 			pressedKeys.push(e.key);
 			setPressedKey(e.key);
 			updateState(GameState);

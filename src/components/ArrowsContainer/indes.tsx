@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import 'index.css';
+import './index.css';
 
 type Props = {
 	title: string;

@@ -16,7 +16,7 @@ const store = createStore(rootReducer, enhancer);
 sagaMiddleware.run(rootSaga);
 
 type AppDispatch = typeof store.dispatch;
-type RootState = ReturnType<typeof store.getState>;
+export type RootState = ReturnType<typeof store.getState>;
 
 export default store;
 export const useAppDispatch: () => AppDispatch = useDispatch;

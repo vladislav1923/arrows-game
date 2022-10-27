@@ -1,0 +1,9 @@
+.app {
+    text-align: center;
+}
+
+.app__section {
+    display: flex;
+    background-color: #282c34;
+    flex-direction: column;
+}

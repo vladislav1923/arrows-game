@@ -1,9 +1,9 @@
-import ArrowsEnum from '../enums/arrows';
 import GeneratedArrow from './generated-arrow';
+import PressedArrow from './pressed-arrow';
 
 interface State {
 	generatedArrows: GeneratedArrow[];
-	pressedArrows: ArrowsEnum[];
+	pressedArrows: PressedArrow[];
 	correctCount: number;
 	errorsCount: number;
 }

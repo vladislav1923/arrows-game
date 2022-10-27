@@ -1,7 +1,5 @@
-import ArrowsEnum from '../enums/arrows';
+import BaseArrow from './base-arrow';
 
-interface PressedArrow {
-	value: ArrowsEnum;
-}
+interface PressedArrow extends BaseArrow {}
 
 export default PressedArrow;
