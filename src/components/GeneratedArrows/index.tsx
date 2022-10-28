@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import GeneratedArrow from '../../interfaces/generated-arrow';
-import ArrowsContainer from '../ArrowsContainer/indes';
+import ArrowsContainer from '../ArrowsContainer';
 import Arrow from '../Arrow';
 
 type Props = {

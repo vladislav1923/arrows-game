@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import ArrowsContainer from '../ArrowsContainer/indes';
+import ArrowsContainer from '../ArrowsContainer';
 import Arrow from '../Arrow';
 import PressedArrow from '../../interfaces/pressed-arrow';
 
