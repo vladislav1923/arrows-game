@@ -5,7 +5,7 @@ import Header from '../Header';
 import GeneratedArrows from '../GeneratedArrows';
 import PressedArrows from '../PressedArrows';
 import LivesCounter from '../LivesCounter';
-import useKeydownListener from '../../hooks/use-keydown-listener';
+import useKeydownListener from '../../hooks/useKeydownListener';
 import useWinGame from '../../hooks/useWinGame';
 import useLoseGame from '../../hooks/useLoseGame';
 

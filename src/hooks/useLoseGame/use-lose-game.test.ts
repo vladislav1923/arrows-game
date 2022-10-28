@@ -1,6 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
 import useLoseGame from './index';
-import WIN_SCORE from '../../constants/win-score';
 import { showGaveOverModal } from '../../utils';
 import { clearArrows } from '../../store/actions';
 import GameOverTextsEnum from '../../enums/game-over-texts';

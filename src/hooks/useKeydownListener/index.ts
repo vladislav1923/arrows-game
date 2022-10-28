@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import { getArrowByEventKey, isArrowEventKey } from '../utils';
-import EventKeysEnum from '../enums/keys';
-import PressedArrow from '../interfaces/pressed-arrow';
-import { addPressedArrow } from '../store/actions';
-import { useAppDispatch } from '../store';
+import { getArrowByEventKey, isArrowEventKey } from '../../utils';
+import EventKeysEnum from '../../enums/keys';
+import PressedArrow from '../../interfaces/pressed-arrow';
+import { addPressedArrow } from '../../store/actions';
+import { useAppDispatch } from '../../store';
 
 const useKeydownListener = (): void => {
 	const dispatch = useAppDispatch();
