@@ -1,9 +1,9 @@
-import { useAppDispatch } from '../store';
+import { useAppDispatch } from '../../store';
 import { useEffect } from 'react';
-import { showGaveOverModal } from '../utils';
-import GameOverTextsEnum from '../enums/game-over-texts';
-import WIN_SCORE from '../constants/win-score';
-import { clearArrows } from '../store/actions';
+import { showGaveOverModal } from '../../utils';
+import GameOverTextsEnum from '../../enums/game-over-texts';
+import WIN_SCORE from '../../constants/win-score';
+import { clearArrows } from '../../store/actions';
 
 const useWinGame = (correctCount: number): void => {
 	const dispatch = useAppDispatch();

@@ -6,8 +6,8 @@ import GeneratedArrows from '../GeneratedArrows';
 import PressedArrows from '../PressedArrows';
 import LivesCounter from '../LivesCounter';
 import useKeydownListener from '../../hooks/use-keydown-listener';
-import useWinGame from '../../hooks/use-win-game';
-import useLoseGame from '../../hooks/use-lose-game';
+import useWinGame from '../../hooks/useWinGame';
+import useLoseGame from '../../hooks/useLoseGame';
 
 const App = (): ReactElement => {
 	const { generatedArrows, pressedArrows, correctCount, errorsCount } = useAppSelector(
