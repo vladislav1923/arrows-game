@@ -15,8 +15,8 @@ const LivesCounter = ({ errorsCount }: Props): ReactElement => {
 		if (restLives <= 0) {
 			setLives([]);
 		} else {
-			const livesEmoji = Array(restLives).fill(LIVE_EMOJI);
-			setLives(livesEmoji);
+			const livesEmojis = Array(restLives).fill(LIVE_EMOJI);
+			setLives(livesEmojis);
 		}
 	}, [errorsCount]);
 
