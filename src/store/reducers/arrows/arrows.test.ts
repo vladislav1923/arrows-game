@@ -15,6 +15,7 @@ describe('Arrows reducer', () => {
 			eventKey: EventKeysEnum.Right,
 			isCorrect: false,
 		};
+
 		const arrow2: GeneratedArrow = {
 			value: ArrowsEnum.Left,
 			eventKey: EventKeysEnum.Left,
